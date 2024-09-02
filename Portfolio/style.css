@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2)50%,rgba(0,0,0,0.2)50%),url(../images/lake.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color: #dd656f;
+    font-size: 28px;
+    cursor: pointer;
+    transition: .4s;
+}
+span{
+    color: #fff;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: #dd656f;
+    transition: .6 ease;
+}
+button{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #dd656f;
+}
+button:hover{
+    transition: .6s ease;
+    transform: scale(1.2);
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(../images/evening.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+.logo{
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+}
+span{
+    color: #ffa500;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #ffa500;
+    transition: .4s ease;
+}
+button{
+    background-color: #ffa500;
+    height: 40px;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    transition: .4s ease;
+}
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
